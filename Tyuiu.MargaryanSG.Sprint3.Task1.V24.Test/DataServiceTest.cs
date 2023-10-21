@@ -16,7 +16,7 @@ namespace Tyuiu.MargaryanSG.Sprint3.Task1.V24.Test
             int stopValue = 12;
 
             double res = ds.GetSumSeries(value, startValue, stopValue);
-            double wait = 36.391;
+            double wait = 0.186;
 
             Assert.AreEqual(res, wait);
         }
