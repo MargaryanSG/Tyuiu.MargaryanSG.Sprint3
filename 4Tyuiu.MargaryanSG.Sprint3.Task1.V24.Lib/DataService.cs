@@ -12,7 +12,9 @@ namespace Tyuiu.MargaryanSG.Sprint3.Task1.V24.Lib
         public double GetSumSeries(int value, int startValue, int stopValue)
         {
             double q = 0;
+
             int i;
+
             for (i = startValue; i <= stopValue; i++)
             {
                 q += (Math.Pow((2/(6 + Math.Pow(value, i))), i));
