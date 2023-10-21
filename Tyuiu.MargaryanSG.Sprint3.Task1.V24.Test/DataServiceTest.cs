@@ -1,8 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using Tyuiu.MargaryanSG.Sprint3.Task0.V28.Lib;
+using Tyuiu.MargaryanSG.Sprint3.Task1.V24.Lib;
 
-namespace Tyuiu.MargaryanSG.Sprint3.Task0.V28.Test
+namespace Tyuiu.MargaryanSG.Sprint3.Task1.V24.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -11,12 +11,12 @@ namespace Tyuiu.MargaryanSG.Sprint3.Task0.V28.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            double value = 0.25;
+            int value = 5;
             int startValue = 1;
-            int stopValue = 17;
+            int stopValue = 12;
 
-            double res = ds.GetMultiplySeries(value, startValue, stopValue);
-            double wait = 0;
+            double res = ds.GetSumSeries(value, startValue, stopValue);
+            double wait = 36.391;
 
             Assert.AreEqual(res, wait);
         }
