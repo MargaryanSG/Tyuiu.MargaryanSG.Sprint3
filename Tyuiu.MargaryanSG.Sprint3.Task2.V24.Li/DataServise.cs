@@ -12,7 +12,6 @@ namespace Tyuiu.MargaryanSG.Sprint3.Task2.V24.Lib
         public double GetMultiplySeries(double value, int startValue, int stopValue)
         {
             double q = 1;
-
             int k = startValue;
 
             do
