@@ -23,6 +23,7 @@ namespace Tyuiu.MargaryanSG.Sprint3.Task3.V14
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
+
             string q = ds.ReplaceCharInString(value, replaceable, replacement);
 
             Console.WriteLine(q);

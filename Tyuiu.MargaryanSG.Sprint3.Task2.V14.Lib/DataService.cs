@@ -11,8 +11,6 @@ namespace Tyuiu.MargaryanSG.Sprint3.Task3.V14.Lib
     {
         public string ReplaceCharInString(string value, char replaceable, char replacement)
         {
-            
-            
 
             foreach (char c in value)
 
