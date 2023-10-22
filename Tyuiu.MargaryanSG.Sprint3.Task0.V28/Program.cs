@@ -23,6 +23,7 @@ namespace Tyuiu.MargaryanSG.Sprint3.Task0.V28
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
+
             double q = ds.GetMultiplySeries(value, startValue, stopValue);
 
             Console.WriteLine(q);
