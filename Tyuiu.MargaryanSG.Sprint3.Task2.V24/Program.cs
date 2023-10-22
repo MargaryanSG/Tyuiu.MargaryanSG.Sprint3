@@ -11,8 +11,10 @@ namespace Tyuiu.MargaryanSG.Sprint3.Task2.V24
     class Program
     {
         static void Main(string[] args)
+
         {
             DataService ds = new DataService();
+
             double value = 0.25;
             int startValue = 1;
             int stopValue = 8;
