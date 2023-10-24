@@ -21,7 +21,7 @@ namespace Tyuiu.MargaryanSG.Sprint3.Task3.V14.Lib
                 }
             }
             return value;
-            
+
         }
     }
 }

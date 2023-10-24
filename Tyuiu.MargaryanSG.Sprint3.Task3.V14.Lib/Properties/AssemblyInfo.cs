@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанные со сборкой.
-[assembly: AssemblyTitle("Tyuiu.MargaryanSG.Sprint3.Task2.V14.Lib")]
+[assembly: AssemblyTitle("Tyuiu.MargaryanSG.Sprint3.Task3.V14.Lib")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Tyuiu.MargaryanSG.Sprint3.Task2.V14.Lib")]
+[assembly: AssemblyProduct("Tyuiu.MargaryanSG.Sprint3.Task3.V14.Lib")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("9d2e96af-c001-4c46-995a-f88cc66e816f")]
+[assembly: Guid("3533f9c1-fc78-48ea-a4e8-fee2c10df8f5")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //
