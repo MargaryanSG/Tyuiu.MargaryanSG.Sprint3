@@ -16,7 +16,7 @@ namespace Tyuiu.MargaryanSG.Sprint3.Task2.V24.Test
             string value = "dgt ghedd bed"; char replaceable = 'd'; char replacement = '’';
 
             string res = ds.ReplaceCharInString(value, replaceable, replacement);
-            string wait = "'gt ghe'' be'";
+            string wait = "’gt ghe’’ be’";
 
             Assert.AreEqual(res, wait);
         }
