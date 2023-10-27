@@ -11,14 +11,10 @@ namespace Tyuiu.MargaryanSG.Sprint3.Task6.V27.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-
-
             int startValue = 14; int stopValue = 20;
-
             int res = ds.GetSumTheDivisors(startValue, stopValue);
             int wait = 1;
-
-            Assert.AreEqual(res, wait);
+            Assert.AreEqual(wait, res);
         }
     }
 }

@@ -12,6 +12,7 @@ namespace Tyuiu.MargaryanSG.Sprint3.Task6.V27.Lib
         public int GetSumTheDivisors(int startValue, int stopValue)
         {
             int count = 0;
+
             for (int i = startValue; i <= stopValue; i++)
             {
                 if (i % 9 == 0)

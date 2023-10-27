@@ -14,7 +14,6 @@ namespace Tyuiu.MargaryanSG.Sprint3.Task6.V27
 
         {
             DataService ds = new DataService();
-
             int startValue = 14; int stopValue = 20;
 
             Console.WriteLine("***************************************************************************");
