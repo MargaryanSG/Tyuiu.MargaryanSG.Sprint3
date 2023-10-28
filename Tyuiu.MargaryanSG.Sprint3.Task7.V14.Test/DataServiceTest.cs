@@ -15,6 +15,7 @@ namespace Tyuiu.MargaryanSG.Sprint3.Task7.V14.Test
 
             int len = (stopValue - startValue) + 1;
             double[] wait;
+
             wait = new double[len];
 
             wait[0] = -19.62;

@@ -14,6 +14,7 @@ namespace Tyuiu.MargaryanSG.Sprint3.Task7.V14.Lib
             double[] z;
             int len = (stopValue - startValue) + 1;
             z = new double[len];
+
             double y;
             int count = 0;
             for (int x = startValue; x <= stopValue; x++)

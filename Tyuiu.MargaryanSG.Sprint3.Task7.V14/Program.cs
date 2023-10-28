@@ -28,6 +28,7 @@ namespace Tyuiu.MargaryanSG.Sprint3.Task7.V14
             int len = ds.GetMassFunction(startValue, stopValue).Length;
 
             double[] z;
+
             z = new double[len];
 
             z = ds.GetMassFunction(startValue, stopValue);
